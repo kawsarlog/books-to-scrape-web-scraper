@@ -73,5 +73,15 @@ books-to-scrape-web-scraper/
 └── README.md
 ```
 
-## License
-This project is licensed under the MIT License.
+```mermaid
+flowchart TD
+    A[Start] --> B[Initialize base URLs and create directories]
+    B --> C[Loop through pages 1 to 10]
+    C --> D[Request page content]
+    D --> E[Parse HTML content]
+    E --> F[Extract book details]
+    F --> G[Save book thumbnail]
+    G --> H[Append details to the list]
+    H --> I[Save data to CSV file]
+    I --> J[End]
+```
