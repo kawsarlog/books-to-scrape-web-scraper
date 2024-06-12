@@ -75,13 +75,24 @@ books-to-scrape-web-scraper/
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[Initialize base URLs and create directories]
-    B --> C[Loop through pages 1 to 10]
+    A([Start]) --> B[Initialize base URLs and create directories]
+    B --> C{Loop through pages 1 to 10}
     C --> D[Request page content]
     D --> E[Parse HTML content]
     E --> F[Extract book details]
     F --> G[Save book thumbnail]
     G --> H[Append details to the list]
     H --> I[Save data to CSV file]
-    I --> J[End]
+    I --> J([End])
+    style A fill:#f96,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#ff9,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#ff9,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
+    style G fill:#ff9,stroke:#333,stroke-width:2px
+    style H fill:#bbf,stroke:#333,stroke-width:2px
+    style I fill:#f96,stroke:#333,stroke-width:2px
+    style J fill:#f96,stroke:#333,stroke-width:2px
+
 ```
