@@ -59,6 +59,10 @@ This project contains a web scraper that extracts data from the website [Books t
 - `data_sheet/books_data.csv`: Contains the scraped book details.
 - `images/`: Contains the downloaded thumbnail images.
 
+## Video
+For a detailed tutorial on how to use this script, please refer to the [Books to Scrape 📚](https://www.youtube.com/watch?v=SROnFyxGVJM).
+[![Watch the video](https://img.youtube.com/vi/SROnFyxGVJM/maxresdefault.jpg)](https://www.youtube.com/watch?v=SROnFyxGVJM)
+
 ## Directory Structure
 To help organize your project, here's a suggested directory structure:
 
